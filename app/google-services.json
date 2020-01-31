@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822611739959",
+    "firebase_url": "https://e-fine-af07c.firebaseio.com",
+    "project_id": "e-fine-af07c",
+    "storage_bucket": "e-fine-af07c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822611739959:android:a302db8fe9679263c7c6b2",
+        "android_client_info": {
+          "package_name": "com.project.e_fine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822611739959-gaq0l1k3i4ng6po6m227i1c0kvt48djo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJFpy4iZXvSqhnIy6Pkhr0g_UD91RNJp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822611739959-gaq0l1k3i4ng6po6m227i1c0kvt48djo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

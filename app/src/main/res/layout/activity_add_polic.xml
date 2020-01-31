@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Register Police"
+            android:textColor="@color/red"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Full name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/input_sign_up_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Email Adddress"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/input_sign_up_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="National ID No."
+            android:inputType="number"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/input_sign_up_police_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Police ID"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/indate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:background="@drawable/input_shape"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Date of Birth (01/01/1990)"-->
+<!--            android:inputType="date"-->
+<!--            android:textColor="@android:color/black" />-->
+
+        <EditText
+            android:id="@+id/input_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Phone Number (254 7xx xxxxxx)"
+            android:inputType="phone"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/input_sign_up_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Given Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/input_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_shape"
+            android:ems="10"
+            android:hint="Given Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_shape"
+            android:text="Add"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/login"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:text="Already have an account? Sign In"
+            android:textAlignment="center"
+            android:textColor="@color/color_url"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

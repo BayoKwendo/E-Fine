@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.e_fine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Citizens.Authentications.SignupActivity" />
+        <activity android:name=".Citizens.Authentications.LoginActivity" />
+        <activity android:name=".Citizens.Authentications.ResetPasswordActivity" />
+        <activity android:name=".Citizens.User_Profile" >
+
+         </activity>
+        <activity android:name=".Police.Police_LoginActivity" />
+        <activity
+            android:name=".Police.PoliceDashBoard"
+            android:label="Police Dashboard">
+
+        </activity>
+        <activity android:name=".Admin.AdminLogin" />
+        <activity
+            android:name=".Admin.Add_Police"
+            android:label="EFine: Admin" />
+        <activity
+            android:name=".Police.Police_ChangePassword"
+            android:label="E-Fine Police" />
+        <activity android:name=".Citizens.Portal"
+            android:label="Fine Check">
+
+        </activity>
+        <activity android:name=".Citizens.GateWay" />
+    </application>
+
+</manifest>

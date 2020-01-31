@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#383AE2</color>
+    <color name="colorPrimaryDark">#383AE2</color>
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#496363</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#383AE2</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+    <color name="colorAccent">#ef4c5446</color>
+    <color name="colorAccents">#383AE2</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <color name="colorAccentt">#0000ffff</color>
+    <color name="colorAccentts">#000000</color>
+    <color name="colorAccentsS">#e20719</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#18B0D6</color>
+
+    <color name="spash_background_color">#ffffff</color>
+    <color name="colorAccentss">#383AE2</color>
+    <color name="colorAccentsss">#ffffff</color>
+    <color name="colorAccens">#118626</color>
+    <color name="colorOrange">#222222</color>
+    <color name="colorLightGray">#a6abae</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorAccenss">#1d7a10</color>
+    <color name="colorAccensss"> #ffe4b5</color>
+    <color name="colorAccenssss">#6fffe4b5</color>
+    <color name="colorAccentsSS">#bf0918</color>
+    <color name="black">#90000000</color>
+    <color name="circular_textview_background">#FF0000</color>
+    <color name="colourCall">#039233</color>
+    <color name="plain_white">#ffffff</color>
+    <color name="color_url">#2D49C9</color>
+    <color name="color">#e7a922</color>
+
+</resources>

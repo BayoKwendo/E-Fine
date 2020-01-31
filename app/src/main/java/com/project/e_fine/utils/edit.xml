@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <android.support.v7.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+      <android.support.v7.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          android:background="?attr/colorPrimary"
+          app:layout_scrollFlags="scroll|enterAlways"
+          android:theme="@style/ThemeOverlay.AppTheme.ActionBar"
+          app:popupTheme="@style/ThemeOverlay.AppTheme.PopupMenu">
+        <com.HIVFactsheet.ScrollingTextview
+            android:id = "@+id/tite"
+            android:textColor = "@color/colorAccentsss"
+            android:textSize="20sp"
+            android:layout_width = "wrap_content"
+            android:marqueeRepeatLimit="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_height = "wrap_content" />
+      </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white">
+
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="0dp"
+    android:layout_width="fill_parent"
+    android:layout_weight="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:padding="8sp"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+      <TextView
+        style="@style/widget"
+        android:text="Title" />
+
+      <EditText
+        style="@style/widget"
+        android:textColor="@color/black"
+        android:id="@+id/title"
+        android:singleLine="true" />
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+          android:id="@+id/alarm_checkbox"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:text="Alarm" />
+
+        <Spinner
+          android:id="@+id/occurence_spinner"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:spinnerMode="dropdown"
+          android:entries="@array/occurence" />
+
+      </LinearLayout>
+
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+          android:id="@+id/date_button"
+          android:layout_weight="2"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:onClick="onDateClick" />
+
+        <Button
+          android:id="@+id/time_button"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:onClick="onTimeClick" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      style="@style/edit_button"
+      android:id="@+id/done"
+      android:text="Done"
+      android:onClick="onDoneClick" />
+
+    <Button
+      style="@style/edit_button"
+      android:id="@+id/cancel"
+      android:text="Cancel"
+      android:onClick="onCancelClick" />
+
+  </LinearLayout>
+
+</LinearLayout>
+  </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>
